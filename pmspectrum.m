@@ -1,4 +1,7 @@
-function [omega,S] = pm_spectrum(U10)
+function [omega,S] = pmspectrum(U10)
+% PMSPECTRUM
+%
+% Russ Shomberg, URI, 2021
 
     g = 9.81;
     wp = g/U10;

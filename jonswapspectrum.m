@@ -1,4 +1,7 @@
-function [omega,S] = jonswap(U10,fetch)
+function [omega,S] = jonswapspectrum(U10,fetch)
+% JONSWAP
+%
+% Russ Shomberg, URI, 2021
 
     g = 9.81;
     k0 = logspace(-2,0,1000);

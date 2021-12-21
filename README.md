@@ -6,16 +6,16 @@
 ```
 eta = 0.5;
 T = 3;
-[omega,S] = mono_spectrum(eta,T);
+[omega,S] = monospectrum(eta,T);
 
 U10 = 8;
-[omega,S] = pm_spectrum(U10);
+[omega,S] = pmspectrum(U10);
 
 U10 = 8;
 fetch = 100e3;
-[omega,S] = jonswap_spectrum(U10,fetch);
+[omega,S] = jonswapspectrum(U10,fetch);
 
-[ys vs as] = time_funcs(omega,S);
+[ys vs as] = spectrum2series(omega,S);
 
 figure;
 hold on;

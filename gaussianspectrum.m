@@ -1,4 +1,9 @@
-function [omega,S] = gaussian_waves(U10,sigma)
+function [omega,S] = gaussianspectrum(U10,sigma)
+% GAUSSIANSPECTRUM
+%
+% Russ Shomberg, URI, 2021
+
+% TODO: integrate toolboxes to improve this function
 
     g = 9.81;
     omega0 = g/U10;

@@ -1,4 +1,4 @@
-function [ys vs as] = time_funcs(omega,S)
+function [ys vs as] = spectrum2series(omega,S)
 
     g = 9.81;
 
